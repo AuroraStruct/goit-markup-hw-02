@@ -1,6 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
-  color: black;
+  color: #434455;
   background-color: white;
 }
 ul {
@@ -17,8 +17,11 @@ a {
   text-transform: uppercase;
   color: #4d5ae5;
 }
-.header-logo-studio,.logo-part-studio {
+.header-logo-studio {
   color: #2e2f42;
+}
+.logo-part-studio{
+    color:#f4f4fd;
 }
 .header-link {
   font-family: "Roboto", sans-serif;
@@ -29,8 +32,8 @@ a {
   color: #2e2f42;
 }
 
-.header-link:hover {
-  color: #434455;
+.header-link:hover,.header-link:focus {
+  color: #404bbf;
 }
 
 .hero {
@@ -125,6 +128,7 @@ a {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
 }
 
 .footer {
