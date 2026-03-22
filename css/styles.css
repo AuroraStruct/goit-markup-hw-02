@@ -55,6 +55,7 @@ a {
   color: #fff;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
+  cursor: pointer;
 }
 
 .hero-button:hover,.hero-button:focus {
@@ -124,7 +125,7 @@ a {
 .header-logo {
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
@@ -162,7 +163,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
 }
-.contacts-item-link:hover{color: #404bbf;}
+.contacts-item-link:hover,.contacts-item-link:focus{color: #404bbf;}
 
 address{font-style: normal;}
 .section-heading {
